@@ -1,0 +1,31 @@
+.element1 { grid-area: haut; }
+.element2 { grid-area: menu; }
+.element3 { grid-area: principal; }
+.element4 { grid-area: gauche; }
+.element5 { grid-area: bas; }
+.element6 { grid-area: droite; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+	'haut haut haut haut haut haut haut haut haut haut haut haut'
+	'principal principal principal principal principal principal principal principal principal principal principal droite'
+	'bas bas bas bas bas bas bas bas bas bas bas bas';
+  padding: 10px;
+}
+.grid-container > header, nav, footer {
+  background-color: #CBBB9D;
+  text-align: center;
+  padding: 20px ;
+  font-size: 20px;
+}
+.element4{
+  background-color: #A69A93;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+.grid-container > section {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+}

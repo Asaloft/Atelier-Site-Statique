@@ -1,0 +1,18 @@
+.element4 {
+text-align:center; /* centrage horizontal */ }
+
+aside a{
+width:100px; /* largeur du bloc */
+padding:10px; /* aération interne du bloc */
+height: 200px;
+vertical-align:middle;
+display:block;
+text-align:middle; /* ... et l'alignement du texte */ }
+
+#Team+p{
+	padding:5%;
+	text-align:left;}
+
+#Origins+p{
+	padding:5%;
+text-align:right;}

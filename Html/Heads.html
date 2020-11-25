@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<link rel="stylesheet" type="text/css" href="Global.css">
+	<link rel="stylesheet" type="text/css" href="Grid.css">
+	<link rel="stylesheet" type="text/css" href="Heads.css">
+	<link rel="icon" type="image/png" href="../Images/Favicon/Favicon.png"/>
+	<title><a id="top">EggHeads.com</a></title>
+	<meta name="author" content="Dr.Eggmann"/>
+	<meta name="keywords" content="Egg, Eggs, Head, Heads, Egghead, Eggheads"/> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+	<!------------Début------------>
+	<body class="grid-container">
+		<header class="element1">
+			<!------------Logo------------>
+			<img src="..	/Images/Ressources/Logo_incline.png" alt="Logo" width="150px" height="auto"/> 			
+			<!------------Titre------------>		
+			<h1><br><a href="Index.html" id="titre"><span>EGG</span><span>H</span><span>E</span><span>A</span><span>D</span><span>S</span></a></h1>			
+			<!------------Menu Navigation Principal------------>
+			<nav class="element2">
+				<ul>
+					<li class="deroulant"><a href="Eggs.html">Eggs &ensp;</a>
+						<ul class="sous">
+							<li><a href="Eggs_1.html">A very old Egg</a></li>
+							<li><a href="Eggs_2.html">A party Egg</a></li>
+							<li><a href="Eggs_3.html">The classic one</a></li>
+							<li><a href="Eggs_4.html">Kwek Kwek!</a></li>
+							<li><a href="Eggs_5.html">This isn't a nugget</a></li>
+						</ul>
+					</li>
+						<li><a href="Heads.html">Heads</a></li>
+					<li class="deroulant"><a href="About-it.html">About it &ensp;</a>
+						<ul class="sous">
+							<li><a href="About-it.html#Teams">   About me </a></li>
+							<li><a href="About-it.html#Origins"> The Origins </a> </li>
+						</ul>
+					</li>
+					<li><a href="Contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!------------Filtres------------>
+		<aside class="element4">
+		</aside>
+		
+		<!------------Contenu------------>
+		<section class="element3">
+			<p>
+			Here you will soon find picures of eggheads
+			</p>
+		</section>
+			<!------------Retour haut de page------------>
+			<aside class="element6"  id="droite"> <a href="#top">
+				<img src="../Images/Ressources/arrow.gif" id="arrow" alt="Go to the top of the page"  />
+				<script>
+				document.getElementById("arrow").style.display = "none";
+				var prevScrollpos = window.pageYOffset;
+				window.onscroll = function() {
+				var currentScrollPos = window.pageYOffset;
+					if (prevScrollpos < currentScrollPos) {
+						document.getElementById("arrow").style.display = "";					
+					} else {	
+						document.getElementById("arrow").style.display = "none";
+					}
+					prevScrollpos = currentScrollPos;
+				}
+				</script>
+			</a></aside>
+		<!------------Footer------------>
+		<footer class="element5">
+			<!------------Image Retour page d'accueil------------>
+			<a href="Index.html"><img src="../Images/Ressources/home.jpg" alt="Main page" width="5%"/></a>
+			<!------------Menu Navigation Bas de page------------>
+			<nav class="element2">
+				<a href="Eggs.html">Eggs</a>
+				<a href="Heads.html">Heads</a>
+				<a href="About-it.html">About it</a>
+				<a href="Contact.html">Contact</a>
+			</nav>
+		</footer>
+	</body>
+</html>
